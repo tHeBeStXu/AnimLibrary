@@ -13,12 +13,12 @@ You can use it to export, import and rename animation curve. For management, you
    https://around-the-corner.typepad.com/adn/2017/05/how-to-build-pillow-on-windows-with-maya-2017.html
 3. You can also download the compiled Pillow/PIP packages for Maya2017.   https://drive.google.com/drive/folders/0B5n3XnEYY_bVN1d5QWFiSUhGMG8?usp=sharing   
    After you download the packages, unzip, copy and paste the packages to the proper directory.     
-   (i.e. unzip Pillow.4.1.Python2711.VC2012.zip, copy the unzip file and paste it to Maya2018/Python;       
-         unzip openjp2 (1).zip, copy the unzip file and paste it to PIL in Maya2018\Python\Lib\site-packages)
+   (i.e. unzip Pillow.4.1.Python2711.VC2012.zip, copy the unzip file and paste it to Maya2017/Python;       
+         unzip openjp2 (1).zip, copy the unzip file and paste it to PIL in Maya2017\Python\Lib\site-packages)
 
 # How to install:
 1. Download the project file and unzip it somewhere in the computer, make ture to remember the directory of the unzip file location.		
-2. Open Maya 2017+ and open script Editor		    
+2. Open Maya 2017 and open script Editor		    
 3. New a Python tab, and enter following script 		    
 
 Dir = 'X:\WHERE\YOU\PUT\THE\FILE'		    
