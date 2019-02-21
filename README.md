@@ -22,7 +22,7 @@ You can use it to export, import and rename animation curve. For management, you
 3. New a Python tab, and enter following script 		    
 
 Dir = 'X:\WHERE\YOU\PUT\THE\FILE'		    
-	pythonLib = 'X:\WHERE\YOU\PYTHON27\INSTALL\site-packages'					
+pythonLib = 'X:\WHERE\YOU\PYTHON27\INSTALL\site-packages'                       
 import sys		
 
 if Dir not in sys.path:		
