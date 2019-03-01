@@ -38,7 +38,7 @@ reload(Main_UI)
 ui = Main_UI.MainUI()    
 
 # How to use:
-I will record a video for how to use. To be continued...
+You can go to: https://www.bilibili.com/video/av44938064/ and watch the video.
 # Bugs:
 If you find any type of bugs, please e-mail me at: 328665042@qq.com.    
     
