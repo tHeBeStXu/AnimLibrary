@@ -2,9 +2,9 @@
 Animation Curve Library
 	    
 This is a Anim Curve Library tool for animation work.	        
-It is Pyside2 version only for Maya2017.
+It is Pyside2 version for Maya2017 and Maya2018.
 Before using the script, you need to make true that your maya setup is OK.       		    
-You can use it to export and import animation curve. For management, you can create, expand, collapse, rename and remove pose library folder.		
+You can use it to export and import animation curve. For management, you can create, expand, collapse, rename and remove animation curve library folder.		
 
 # Preparation:
 1. Make ture you have installed the imageio, Pillow and PIL packages for your Python27.
