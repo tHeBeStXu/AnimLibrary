@@ -42,5 +42,5 @@ If you find any type of bugs, please e-mail me at: 328665042@qq.com.
     
 If you like, please STAR this repository. Thank you very much.    
 
-# Future
-I will compile some packages for Maya2018 Python and hope it will make your life easier.
+# Pillow 5.1
+For custom build Pillow 5.1 package, please check the link in Preparation 3.
