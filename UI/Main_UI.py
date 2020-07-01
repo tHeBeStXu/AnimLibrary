@@ -6,7 +6,8 @@ import logging
 import os
 from functools import partial
 import shutil
-import imageio
+# import imageio
+from PIL import Image
 
 from ..Lib import exportAnimCurve
 from ..Lib import importAnimCurve
@@ -513,8 +514,10 @@ class MainUI(QtWidgets.QDialog):
             # make GIF from tempImageList
             frames = list()
             for tempImage in tempImageList:
-                frames.append(imageio.imread(tempImage))
-            imageio.mimsave(self.tempGIFDir, frames, 'GIF', duration=0.1)
+                im = Image.open(tempImage)
+                frames.append(im)
+
+            frames[0].save(self.tempGIFDir, save_all=True, append_images=frames[1:], duration=50, loop=0)
 
             # remove temp images
             for i in tempImageList:
