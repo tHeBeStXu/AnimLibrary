@@ -11,10 +11,8 @@ You can use it to export and import animation curve. For management, you can cre
 2. Because Maya use a custom compiled Python version, you need to compile the Pillow for your maya version.         
    Here is a tutorial for how to compile the Pillow for Maya2017 and Maya2018.
    https://around-the-corner.typepad.com/adn/2017/05/how-to-build-pillow-on-windows-with-maya-2017.html
-3. You can also download the compiled Pillow/PIP packages for Maya2017.   https://drive.google.com/drive/folders/0B5n3XnEYY_bVN1d5QWFiSUhGMG8?usp=sharing   
-   After you download the packages, unzip, copy and paste the packages to the proper directory.     
-   (i.e. unzip Pillow.4.1.Python2711.VC2012.zip, copy the unzip file and paste it to Maya2017/Python;       
-         unzip openjp2 (1).zip, copy the unzip file and paste it to PIL in Maya2017\Python\Lib\site-packages)
+3. You can also download the my compiled Pillow 5.1/PIL packages by VS2015(Maya2018+) and VS2012(Maya2015-Maya2017). It is the minimum required Pillow package.   https://drive.google.com/drive/folders/1PFRTYV9qVUkoa2sw0fotvvfipDKLHw_a?usp=sharing
+   After you download the packages, please use the easy_install of your Maya to install the Pillow 5.1 package.     
 
 # How to install:
 1. Download the project file and unzip it somewhere in the computer, make ture to remember the directory of the unzip file location.		
