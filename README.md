@@ -42,5 +42,5 @@ If you find any type of bugs, please e-mail me at: 328665042@qq.com.
     
 If you like, please STAR this repository. Thank you very much.    
 
-# Pillow 5.1
+# Pillow *.egg
 For custom builded Pillow *.egg files, please check the link in Preparation step 3.
