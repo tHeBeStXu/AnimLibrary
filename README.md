@@ -43,4 +43,4 @@ If you find any type of bugs, please e-mail me at: 328665042@qq.com.
 If you like, please STAR this repository. Thank you very much.    
 
 # Pillow 5.1
-For custom build Pillow 5.1 package, please check the link in Preparation 3.
+For custom build Pillow 5.1 package, please check the link in Preparation step 3.
